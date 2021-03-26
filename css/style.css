@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMIT */
+.box-80 {
+    height: 80px;
+    width: 100%;
+    padding: 0 10%;
+    background-color: #F4F9FD;
+}
+
+.chevron::after{
+	border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    margin: 0 4px;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.4em;
+    transform: rotate(135deg);
+    vertical-align: top;
+    width: 0.45em;
+}
+
+.bottom {
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid #FE775A;
+    color: #FE775A;
+}
+
+/* BOX-LOGIN */
+.box-login {
+    padding-top: 20px;
+    text-size: 20px;
+    border: 1px solid black;
+}
+
+header .box-login-left hr {
+    position: relative;
+    height: 19px;
+    top: 0.30em;
+    margin: 0 4px;
+    border: 1px solid;
+    content: '';
+    display: inline-block;
+    transform: rotate(181deg);
+}
+.box-login-left {
+    float: left;
+}
+.box-login-right {
+    float: right;
+}
