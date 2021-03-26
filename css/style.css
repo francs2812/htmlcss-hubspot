@@ -9,11 +9,10 @@
     height: 80px;
     width: 100%;
     padding: 0 10%;
-    background-color: #F4F9FD;
 }
 
 .chevron::after{
-	border-style: solid;
+    border-style: solid;
     border-width: 0.15em 0.15em 0 0;
     margin: 0 4px;
     content: '';
@@ -21,7 +20,7 @@
     height: 0.45em;
     left: 0.15em;
     position: relative;
-    top: 0.4em;
+    top: 0.15em;
     transform: rotate(135deg);
     vertical-align: top;
     width: 0.45em;
@@ -34,12 +33,21 @@
     border: 1px solid #FE775A;
     color: #FE775A;
 }
+.bottom-orange {
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid #FE775A;
+    color: white;
+    background-color: #FE775A;
+}
 
 /* BOX-LOGIN */
 .box-login {
-    padding-top: 20px;
-    text-size: 20px;
+    padding-top: 25px;
+    font-size: 20px;
     border: 1px solid black;
+    background-color: #F4F9FD;
 }
 
 header .box-login-left hr {
@@ -57,4 +65,10 @@ header .box-login-left hr {
 }
 .box-login-right {
     float: right;
+}
+
+.box-login-right img {
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
