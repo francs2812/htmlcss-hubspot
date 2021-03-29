@@ -30,10 +30,11 @@ body {
 }
 .checkbox::before {
     content: "  \2714";
+    font-size: 11px;
     text-align: center;
     color: white;
-    height: 20px;
-    width: 20px;
+    height: 14px;
+    width: 14px;
     margin-right: 5px;
     border-radius: 15px;
     display: inline-block;
@@ -56,15 +57,10 @@ body {
     color: white;
     background-color: #FE775A;
 }
-
-.box-service_vertical {
-    width: calc(70% / 3);
-    height: 500px;
-    margin: 0 5%;
-    float: left;
-    box-shadow: 2px 2px 2px 2px grey;
-    background-color: white;
+.box_margin_lateral_25 {
+    margin: 0 25px;
 }
+
 
 /* BOX-LOGIN */
 .box-login {
@@ -157,6 +153,11 @@ main {
     padding: 0 25%;
     background-color: #F5F8FA;
 }
+
+.info-service {
+    margin: 0 25px;
+}
+
 main  .info-service .intro {
     text-align: center;
     padding: 5% 0;
@@ -189,7 +190,7 @@ main  .info-service .intro {
     padding: 50px 0;
 }
 
-.service-free_hubspot_crm-left a {
+.info-service a {
     padding: 25px 60px;
 }
 
@@ -231,20 +232,57 @@ main  .info-service .intro {
 }
 
 .box-service_vertical {
+    width: calc(90% / 3);
+    margin-right: 5%;
+    float: left;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+}
+
+.service_link {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service_link :last-child {
+    margin-right: 0;
+}
+.box-service_vertical {
     padding: 30px;
     text-align: center;
 }
 
 .service_link img {
     margin: 10% 30%;
+    height: 100px;
 }
 
+.service_link p {
+    height: 88px;
+}
 
 .service_link ul {
     list-style: none;
     text-align: left;
+    margin-bottom: 50px;
 }
 
 .service_link h4 {
-    font-size: 50px;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.service_link hr {
+    margin: 45px 0;
+}
+
+.service_link h3 {
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.support_community {
+    width: 100%;
+    height: 500px;
+    background-color: #00ABB6;
 }
