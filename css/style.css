@@ -59,6 +59,7 @@ body {
 }
 .box_margin_lateral_25 {
     margin: 0 25%;
+    display: inline-block;
 }
 
 
@@ -334,6 +335,9 @@ main  .info-service .intro {
     padding: 40px 80px;
     float: left;
 }
+.description-company-collaborations span {
+    font-weight: 700;
+}
 
 .logo-company-collaborations {
     width: 70%;
@@ -345,4 +349,17 @@ main  .info-service .intro {
     width: calc(80% / 4);
     float: left;
     margin: 15px;
+}
+
+.service-free li {
+    margin: 50px 0;
+}
+.service-free ul {
+    width: 40%;
+    list-style: none;
+}
+
+.service-free img {
+    width: 25%;
+    float: right;
 }
