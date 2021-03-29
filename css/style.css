@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Nunito', sans-serif; 
+}
 
 /* COMMIT */
 .box-80 {
     height: 80px;
     width: 100%;
-    padding: 0 10%;
+    padding: 25px 25%;
 }
 
 .chevron::after{
@@ -25,26 +28,46 @@
     vertical-align: top;
     width: 0.45em;
 }
+.checkbox::before {
+    content: "  \2714";
+    text-align: center;
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: #FE775A;
+}
 
 .bottom {
-    padding: 5px 10px;
+    padding: 15px 20px;
     border-radius: 3px;
     text-decoration: none;
     border: 1px solid #FE775A;
     color: #FE775A;
+    margin-right: 15px;
 }
 .bottom-orange {
-    padding: 5px 10px;
-    border-radius: 3px;
+    padding: 15px 20px;
+    border-radius: 8px;
     text-decoration: none;
     border: 1px solid #FE775A;
     color: white;
     background-color: #FE775A;
 }
 
+.box-service_vertical {
+    width: calc(70% / 3);
+    height: 500px;
+    margin: 0 5%;
+    float: left;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+}
+
 /* BOX-LOGIN */
 .box-login {
-    padding-top: 25px;
     font-size: 20px;
     border: 1px solid black;
     background-color: #F4F9FD;
@@ -68,7 +91,160 @@ header .box-login-left hr {
 }
 
 .box-login-right img {
-    height: 15px;
+    height: 25px;
     margin-right: 5px;
     vertical-align: middle;
+}
+
+/* BARRA NAVIGAZIONE */
+.nav ul {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+    color: rgb(0, 122, 140);
+}
+/* HOMEPAGE */
+.homepage-hero {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(../hero.svg);
+    background-color: #FFF2EE;
+}
+.homepage-hero_text {
+    position: absolute;
+    margin: 20px 25%;
+    width: 30%;
+    color: rgb(51, 71, 91);
+}
+
+.homepage-hero_text h1 {
+    font-size: 70px;
+}
+
+.homepage-hero_text .box_bottom {
+    margin-top: 35px;
+}
+
+.homepage-hero_text .box_bottom p {
+    margin-top: 35px;
+}
+
+.homepage-hero_box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 107px;
+    width: 100%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: #07C0A7;
+}
+
+/* MAIN */
+main {
+    padding: 0 25%;
+    background-color: #F5F8FA;
+}
+main  .info-service .intro {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.info-service .intro h2 {
+    font-size: 35px;
+    margin:  1% 0;
+}
+
+.info-service .intro p {
+    font-size: 15px;
+    margin: 2% 15%;
+}
+.info-service .intro img {
+    width: 20%;
+}
+
+.service-free_hubspot_crm {
+    height: 400px;
+    margin: 50px 0;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+}
+
+.service-free_hubspot_crm-left {
+    float: left;
+    width: 350px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.service-free_hubspot_crm-left a {
+    padding: 25px 60px;
+}
+
+.service-free_hubspot_crm-left img {
+    width: 50%;
+    margin: 40px 14%;
+}
+
+.service-free_hubspot_crm-right {
+    margin: 10% 0;
+    float: left;
+}
+
+.service-free_hubspot_crm-right hr {
+    margin: 5px 70px;
+    border: 1px solid black; 
+    width: 500px;
+    display: inline-block;
+    color:black;
+    background-color:black
+}
+
+.service-free_hubspot_crm-right p {
+    font-size: 15px;
+    margin-top: 3%;
+    padding: 0 25% 0 0;
+}
+
+.service-free_hubspot_crm-right h4 {
+    font-size: 20px;
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+.service-free_hubspot_crm-right li {
+    font-size: 15px;
+    margin: 5px;
+    list-style: none;
+    float: left;
+}
+
+.box-service_vertical {
+    padding: 30px;
+    text-align: center;
+}
+
+.service_link img {
+    margin: 10% 30%;
+}
+
+
+.service_link ul {
+    list-style: none;
+    text-align: left;
+}
+
+.service_link h4 {
+    font-size: 50px;
 }
