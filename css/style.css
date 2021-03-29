@@ -328,3 +328,21 @@ main  .info-service .intro {
     left: 70%;
     top: 15%;
 }
+
+.description-company-collaborations {
+    width: 30%;
+    padding: 40px 80px;
+    float: left;
+}
+
+.logo-company-collaborations {
+    width: 70%;
+    float: left;
+    padding: 60px 80px;
+}
+
+.logo-company-collaborations img {
+    width: calc(80% / 4);
+    float: left;
+    margin: 15px;
+}
